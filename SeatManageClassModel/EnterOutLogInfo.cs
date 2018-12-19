@@ -198,5 +198,34 @@ namespace SeatManage.ClassModel
             get { return shortSeatNo; }
             set { shortSeatNo = value; }
         }
+
+        private string _TypeName;
+        /// <summary>
+        /// 读者类型
+        /// </summary>
+        public string TypeName
+        {
+            get { return _TypeName; }
+            set { _TypeName = value; }
+        }
+        private string _DeptName;
+        /// <summary>
+        /// 读者院系
+        /// </summary>
+        public string DeptName
+        {
+            get { return _DeptName; }
+            set { _DeptName = value; }
+        }
+        /// <summary>
+        /// 性别
+        /// </summary>
+        public string Sex
+        {
+            get { return _Sex; }
+            set { _Sex = value; }
+        }
+
+        private string _Sex;
     }
 }
