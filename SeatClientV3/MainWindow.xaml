@@ -21,12 +21,11 @@
                 </Canvas>
                 <StackPanel Margin="0,0,0,110" Height="130" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
                     <Button Content="RadioButton" Height="130" Margin="0,0,0,0"  Width="130" Style="{DynamicResource ButtonStyle_FM_LogSearch}" Click="LogSearchButton_Click"/>
-                    <Button Content="RadioButton" Height="130" Margin="60,0,0,0"  Width="130" Style="{DynamicResource ButtonStyle_ActiveBespeak}" Click="ActivationButton_Click"/>
+                    <!--<Button Content="RadioButton" Height="130" Margin="60,0,0,0"  Width="130" Style="{DynamicResource ButtonStyle_ActiveBespeak}" Click="ActivationButton_Click"/>-->
                     <MyUC:UC_LastSeat Height="130" Margin="60,0,0,0"  Width="130" ></MyUC:UC_LastSeat>
                 </StackPanel>
                 <TextBox HorizontalAlignment="Right" x:Name="txt_CardNo" Margin="0,0,516.443,79.84" TextWrapping="NoWrap" Text="" VerticalAlignment="Bottom" Width="154.284" Visibility="{Binding TestMode}"/>
                 <Button Content="确定" HorizontalAlignment="Right" Margin="0,0,416.915,79.84" x:Name="btnGetNo" VerticalAlignment="Bottom" Visibility="{Binding TestMode}" Click="btnGetNo_Click" RenderTransformOrigin="-12.323,-10.171" Width="60.902" />
-                <TextBlock HorizontalAlignment="Center" Margin="0,935,0,0" TextWrapping="Wrap" Text="技术支持·南京智佰闻欣文化传媒有限公司" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
                 <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,30,70" TextWrapping="Wrap" FontSize="24" Foreground="Orange" Text="{Binding PrintError}" />
             </Grid>
         </Viewbox>
