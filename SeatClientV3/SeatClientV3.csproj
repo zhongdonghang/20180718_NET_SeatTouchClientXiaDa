@@ -878,6 +878,7 @@
     <Content Include="images\ClientBackImage\note_Window.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\Image\SchoolLogo_caijing.png" />
     <Resource Include="Resources\Image\SchoolLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
